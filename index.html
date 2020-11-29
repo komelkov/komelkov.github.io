@@ -1,7 +1,37 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Web Speech Api examples</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <hr>
+  <section class="speech-recognition-section">
+    <h1>Распознавание речи</h1>
+    <p>
+      Нажмите на иконку микрофона, и назовите любой цвет радуги, чтобы изменить фон
+    </p>
+    <div class="audio-record-animation__wrapper">
+      <div style="visibility: hidden;" class="audio-record-animation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="microphone-wrapper">
+      <img class="microphone__image" src="microphone.png" width="50" height="50" alt="">
+      <p class="recognition-result">Результат: по умолчанию</p>
+      <p class="recognition-response">Результат: по умолчанию</p>
+    </div>
+  </section>
+  <script src="app.js"></script>
 </body>
+
 </html>
