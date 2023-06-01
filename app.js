@@ -74,7 +74,7 @@ recognition.onresult = function (event) {
 
   let json = {
     query: response,
-    key: {{secret.API_KEY}},
+    key: "dmdx1yu1OU6RfMqyTqa63ZfoZrMusfqM",
     unit: unitID(),
     data: {},
   };
