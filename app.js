@@ -112,5 +112,3 @@ const userAction = async (json) => {
   // do something with myJson
   recognitionTextResponse.textContent = myJson.query;
 };
-
-let x;
